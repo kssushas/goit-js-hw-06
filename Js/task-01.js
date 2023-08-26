@@ -5,6 +5,6 @@ console.log('Number of categories:', listEl.length);
 
 listEl.forEach((li,index) => {
     console.log('Category: ', h2El[index].textContent);
-    const liEl = listEl[index].querySelectorAll('li');
+    const liEl = li.querySelectorAll('li');
     console.log('Elements: ', liEl.length);
 });

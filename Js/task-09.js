@@ -12,8 +12,9 @@ function getRandomHexColor() {
 
 function changeColor(event) {
   body.style.backgroundColor = getRandomHexColor();
-  spanColor.textContent = getRandomHexColor();
+  spanColor.textContent = body.style.backgroundColor;
 };
+
 
 
 
